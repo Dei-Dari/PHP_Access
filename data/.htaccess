@@ -1,11 +1,4 @@
 ﻿# Запрет доступа к содержимому папки data
-<Files "*">
-    Order allow,deny
-    Deny from all
-</Files>
 
-# Запрет доступа к файлам .htaccess и .htpasswd
-<Files ~ "^\.ht">
-    Order allow,deny
-    Deny from all
-</Files>
+Order allow,deny
+Deny from all
